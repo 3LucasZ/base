@@ -1,0 +1,6 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/rosbot/dev_ws/src/interfaces:msg/Vector2.msg"
+  ]
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rosbot/dev_ws/build/rosapi_msgs/librosapi_msgs__rosidl_typesupport_introspection_cpp.so" "TARGETS" "rosapi_msgs__rosidl_typesupport_introspection_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

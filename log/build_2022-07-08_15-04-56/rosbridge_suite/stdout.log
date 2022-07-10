@@ -1,0 +1,23 @@
+-- Found ament_cmake_core: 0.8.3 (/opt/ros/eloquent/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rosbot/dev_ws/build/rosbridge_suite
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/ament_index/resource_index/package_run_dependencies/rosbridge_suite
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/ament_index/resource_index/parent_prefix_path/rosbridge_suite
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.sh
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.dsv
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/environment/path.sh
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/environment/path.dsv
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.bash
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.sh
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.zsh
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.dsv
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.dsv
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/ament_index/resource_index/packages/rosbridge_suite
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig.cmake
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig-version.cmake
+-- Installing: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.xml

@@ -1,0 +1,35 @@
+[5.414s] Invoking command in '/home/rosbot/dev_ws/build/py_pubsub': PYTHONPATH=/home/rosbot/dev_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/rosbot/dev_ws/install/py_pubsub --editable --build-directory /home/rosbot/dev_ws/build/py_pubsub/build --no-deps install_data --install-dir /home/rosbot/dev_ws/install/py_pubsub
+[6.653s] /home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.654s]   % (opt, underscore_opt)
+[6.655s] /home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[6.656s]   % (opt, underscore_opt)
+[6.911s] running develop
+[6.912s] /home/rosbot/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.913s]   EasyInstallDeprecationWarning,
+[6.917s] /home/rosbot/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.918s]   setuptools.SetuptoolsDeprecationWarning,
+[7.156s] /home/rosbot/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[7.156s]   PkgResourcesDeprecationWarning,
+[7.600s] running egg_info
+[7.601s] creating py_pubsub.egg-info
+[7.602s] writing py_pubsub.egg-info/PKG-INFO
+[7.603s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[7.604s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[7.604s] writing requirements to py_pubsub.egg-info/requires.txt
+[7.605s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[7.605s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[7.612s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[7.618s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[7.625s] running build_ext
+[7.625s] Creating /home/rosbot/dev_ws/install/py_pubsub/lib/python3.6/site-packages/py-pubsub.egg-link (link to .)
+[7.630s] Installing listener script to /home/rosbot/dev_ws/install/py_pubsub/lib/py_pubsub
+[7.631s] Installing talker script to /home/rosbot/dev_ws/install/py_pubsub/lib/py_pubsub
+[7.632s] 
+[7.634s] Installed /home/rosbot/dev_ws/build/py_pubsub
+[7.634s] running install_data
+[7.635s] creating /home/rosbot/dev_ws/install/py_pubsub/share/ament_index
+[7.636s] creating /home/rosbot/dev_ws/install/py_pubsub/share/ament_index/resource_index
+[7.636s] creating /home/rosbot/dev_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[7.637s] copying resource/py_pubsub -> /home/rosbot/dev_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[7.638s] copying package.xml -> /home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub
+[8.096s] Invoked command in '/home/rosbot/dev_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/rosbot/dev_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/rosbot/dev_ws/install/py_pubsub --editable --build-directory /home/rosbot/dev_ws/build/py_pubsub/build --no-deps install_data --install-dir /home/rosbot/dev_ws/install/py_pubsub

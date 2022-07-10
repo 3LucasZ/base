@@ -1,0 +1,44 @@
+-- Found ament_cmake_ros: 0.8.0 (/opt/ros/eloquent/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found launch_testing_ament_cmake: 0.9.7 (/opt/ros/eloquent/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rosbot/dev_ws/build/rosbridge_server
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/environment/pythonpath.sh
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/environment/pythonpath.dsv
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages/rosbridge_server/__init__.py
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages/rosbridge_server/client_mananger.py
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages/rosbridge_server/websocket_handler.py
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/ament_index/resource_index/package_run_dependencies/rosbridge_server
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/ament_index/resource_index/parent_prefix_path/rosbridge_server
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/environment/ament_prefix_path.sh
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/environment/path.sh
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/environment/path.dsv
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/local_setup.bash
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/local_setup.sh
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/local_setup.zsh
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/local_setup.dsv
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.dsv
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/ament_index/resource_index/packages/rosbridge_server
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/cmake/rosbridge_serverConfig.cmake
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/cmake/rosbridge_serverConfig-version.cmake
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.xml
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/lib/rosbridge_server/rosbridge_websocket.py
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/lib/rosbridge_server/rosbridge_websocket
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/launch/rosbridge_websocket_launch.xml
+Listing '/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages/rosbridge_server'...
+Compiling '/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages/rosbridge_server/__init__.py'...
+Compiling '/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages/rosbridge_server/client_mananger.py'...
+Compiling '/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages/rosbridge_server/websocket_handler.py'...

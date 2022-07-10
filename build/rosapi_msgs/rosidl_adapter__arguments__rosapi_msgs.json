@@ -1,0 +1,30 @@
+{
+  "package_name": "rosapi_msgs",
+  "non_idl_tuples": [
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:msg/TypeDef.msg",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/DeleteParam.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/GetActionServers.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParam.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParamNames.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/GetROSVersion.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/GetTime.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/HasParam.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/MessageDetails.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/Nodes.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/NodeDetails.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/Publishers.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceNode.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceProviders.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceRequestDetails.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceResponseDetails.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/Services.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/ServicesForType.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceType.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/SetParam.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/Subscribers.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/Topics.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsAndRawTypes.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsForType.srv",
+    "/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicType.srv"
+  ]
+}

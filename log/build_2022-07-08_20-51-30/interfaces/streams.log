@@ -1,0 +1,86 @@
+[0.243s] Invoking command in '/home/rosbot/dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces -- -j4 -l4
+[0.490s] [ 10%] Built target interfaces__rosidl_generator_c
+[0.547s] [ 13%] Built target interfaces__cpp
+[0.672s] [ 24%] Built target interfaces__rosidl_typesupport_introspection_c
+[0.741s] [ 34%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[0.756s] [ 44%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[0.897s] [ 55%] Built target interfaces__rosidl_typesupport_cpp
+[0.999s] [ 65%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[2.416s] [ 75%] Built target interfaces__rosidl_typesupport_c
+[2.700s] [ 75%] Built target interfaces
+[2.794s] [ 79%] Built target interfaces__py
+[2.796s] [ 86%] Built target interfaces__python
+[2.798s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[2.799s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.350s] Invoked command in '/home/rosbot/dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces -- -j4 -l4
+[6.076s] Invoking command in '/home/rosbot/dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces --target install -- -j4 -l4
+[6.571s] [ 10%] Built target interfaces__rosidl_generator_c
+[6.573s] [ 13%] Built target interfaces__cpp
+[6.574s] [ 24%] Built target interfaces__rosidl_typesupport_introspection_c
+[6.575s] [ 34%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[6.577s] [ 44%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[6.578s] [ 55%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[6.579s] [ 65%] Built target interfaces__rosidl_typesupport_cpp
+[6.666s] [ 75%] Built target interfaces__rosidl_typesupport_c
+[6.746s] [ 75%] Built target interfaces
+[6.827s] [ 79%] Built target interfaces__py
+[6.943s] [ 86%] Built target interfaces__python
+[7.065s] [ 93%] Built target interfaces__rosidl_typesupport_c__pyext
+[7.090s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.161s] [36mInstall the project...[0m
+[7.193s] -- Install configuration: ""
+[7.195s] -- Execute custom install script
+[7.197s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[7.198s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[7.200s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[7.201s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[7.202s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[7.205s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.206s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_fastrtps_c.h
+[7.207s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[7.210s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.211s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2.h
+[7.212s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__functions.h
+[7.214s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__struct.h
+[7.215s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__type_support.h
+[7.216s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[7.218s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.219s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[7.220s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.222s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2.hpp
+[7.223s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__struct.hpp
+[7.224s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__traits.hpp
+[7.225s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.226s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_introspection_c.h
+[7.227s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[7.229s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_introspection_cpp.hpp
+[7.231s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[7.233s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[7.234s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[7.235s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py
+[7.236s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/__init__.py
+[7.237s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_vector2.py
+[7.239s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[7.240s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[7.242s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__python.so
+[7.243s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/msg/Vector2.idl
+[7.244s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/msg/Vector2.msg
+[7.245s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[7.247s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[7.248s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[7.249s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[7.250s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/path.sh
+[7.252s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/path.dsv
+[7.253s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.bash
+[7.254s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.sh
+[7.255s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.zsh
+[7.256s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.dsv
+[7.257s] -- Symlinking: /home/rosbot/dev_ws/install/interfaces/share/interfaces/package.dsv
+[7.294s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[7.295s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[7.296s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.297s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.298s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[7.300s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[7.301s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/interfaces/share/interfaces/package.xml
+[8.411s] Invoked command in '/home/rosbot/dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces --target install -- -j4 -l4

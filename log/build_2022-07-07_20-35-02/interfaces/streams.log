@@ -1,0 +1,196 @@
+[0.188s] Invoking command in '/home/rosbot/dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/rosbot/dev_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/rosbot/dev_ws/install/interfaces
+[0.669s] -- The C compiler identification is GNU 7.5.0
+[1.078s] -- The CXX compiler identification is GNU 7.5.0
+[1.096s] -- Check for working C compiler: /usr/bin/cc
+[1.328s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.331s] -- Detecting C compiler ABI info
+[1.554s] -- Detecting C compiler ABI info - done
+[1.575s] -- Detecting C compile features
+[2.248s] -- Detecting C compile features - done
+[2.259s] -- Check for working CXX compiler: /usr/bin/c++
+[2.511s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.513s] -- Detecting CXX compiler ABI info
+[2.770s] -- Detecting CXX compiler ABI info - done
+[2.788s] -- Detecting CXX compile features
+[3.891s] -- Detecting CXX compile features - done
+[3.914s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[4.044s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.259s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[5.701s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[5.812s] -- Found FastRTPS: /opt/ros/eloquent/include  
+[5.898s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[6.346s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[7.108s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[7.128s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[7.552s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[7.661s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[7.670s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[7.789s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[7.790s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.790s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[7.791s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[7.888s] -- Found PythonExtra: .so  
+[8.443s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[8.571s] -- Added test 'lint_cmake' to check CMake code style
+[8.576s] -- Added test 'xmllint' to check XML markup files
+[8.594s] -- Configuring done
+[8.725s] -- Generating done
+[8.738s] -- Build files have been written to: /home/rosbot/dev_ws/build/interfaces
+[8.758s] Invoked command in '/home/rosbot/dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/rosbot/dev_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/rosbot/dev_ws/install/interfaces
+[8.767s] Invoking command in '/home/rosbot/dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces -- -j4 -l4
+[8.915s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.916s] [35m[1mScanning dependencies of target interfaces__cpp[0m
+[8.955s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.456s] [  6%] Built target interfaces__cpp
+[10.513s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.524s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.545s] [35m[1mScanning dependencies of target interfaces__rosidl_generator_c[0m
+[10.599s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/vector2__functions.c.o[0m
+[10.760s] [ 20%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[10.887s] [ 20%] Built target interfaces__rosidl_generator_c
+[10.924s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.017s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[12.063s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[12.077s] [ 27%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/vector2__type_support.cpp.o[0m
+[12.127s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/vector2__type_support.cpp.o[0m
+[12.410s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[12.458s] [ 34%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/vector2__type_support.c.o[0m
+[12.576s] [ 37%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[12.682s] [ 37%] Built target interfaces__rosidl_typesupport_introspection_c
+[13.059s] [ 41%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[13.190s] [ 41%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[13.490s] [ 44%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.790s] [ 44%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[13.827s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.828s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.142s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[15.195s] [ 55%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/vector2__type_support.cpp.o[0m
+[15.303s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[15.359s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/vector2__type_support_c.cpp.o[0m
+[16.526s] [ 62%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[16.545s] [ 65%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[16.841s] [ 65%] Built target interfaces__rosidl_typesupport_cpp
+[16.870s] [ 65%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[16.911s] [ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.214s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c[0m
+[18.258s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/vector2__type_support.cpp.o[0m
+[18.353s] [ 75%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[18.511s] [ 75%] Built target interfaces__rosidl_typesupport_c
+[18.550s] [35m[1mScanning dependencies of target interfaces[0m
+[18.587s] [ 75%] Built target interfaces
+[18.623s] [35m[1mScanning dependencies of target interfaces__py[0m
+[18.661s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.795s] [ 79%] Built target interfaces__py
+[20.831s] [35m[1mScanning dependencies of target interfaces__python[0m
+[20.941s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_vector2_s.c.o[0m
+[21.266s] [ 86%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[21.488s] [ 86%] Built target interfaces__python
+[21.527s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[21.527s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[21.600s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[21.624s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[21.876s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[21.897s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[22.095s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[22.118s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[22.158s] Invoked command in '/home/rosbot/dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces -- -j4 -l4
+[22.366s] Invoking command in '/home/rosbot/dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces --target install -- -j4 -l4
+[22.555s] [  3%] Built target interfaces__cpp
+[22.557s] [ 13%] Built target interfaces__rosidl_generator_c
+[22.640s] [ 24%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[22.645s] [ 34%] Built target interfaces__rosidl_typesupport_introspection_c
+[22.664s] [ 44%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[22.765s] [ 65%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[22.766s] [ 65%] Built target interfaces__rosidl_typesupport_cpp
+[22.864s] [ 75%] Built target interfaces__rosidl_typesupport_c
+[22.938s] [ 75%] Built target interfaces
+[23.011s] [ 79%] Built target interfaces__py
+[23.115s] [ 86%] Built target interfaces__python
+[23.220s] [ 93%] Built target interfaces__rosidl_typesupport_c__pyext
+[23.226s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[23.293s] [36mInstall the project...[0m
+[23.325s] -- Install configuration: ""
+[23.326s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[23.327s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[23.328s] -- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[23.328s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[23.329s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[23.330s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[23.331s] -- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[23.331s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+[23.332s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+[23.332s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.333s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_fastrtps_c.h
+[23.334s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[23.334s] -- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[23.335s] -- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+[23.335s] -- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+[23.336s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__struct.h
+[23.337s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2.h
+[23.337s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__functions.h
+[23.338s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__type_support.h
+[23.338s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__functions.c
+[23.339s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[23.339s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[23.340s] -- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[23.341s] -- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+[23.341s] -- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+[23.342s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.343s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[23.343s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/dds_fastrtps
+[23.344s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[23.344s] -- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.345s] -- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+[23.345s] -- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+[23.346s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__traits.hpp
+[23.347s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2.hpp
+[23.347s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__struct.hpp
+[23.348s] -- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+[23.348s] -- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+[23.349s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__type_support.c
+[23.349s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_introspection_c.h
+[23.350s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.350s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[23.351s] -- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[23.351s] -- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+[23.352s] -- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+[23.353s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__type_support.cpp
+[23.353s] -- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_introspection_cpp.hpp
+[23.354s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[23.354s] -- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[23.355s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[23.356s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[23.356s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py
+[23.494s] Compiling '/home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py'...
+[23.514s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg
+[23.515s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_vector2.py
+[23.515s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_vector2_s.c
+[23.516s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/__init__.py
+[23.516s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[23.517s] -- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[23.518s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[23.520s] -- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[23.520s] -- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__python.so
+[23.522s] -- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__python.so" to ""
+[23.522s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/msg/Vector2.idl
+[23.523s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/msg/Vector2.msg
+[23.523s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[23.524s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[23.525s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[23.525s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[23.526s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/path.sh
+[23.526s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/path.dsv
+[23.527s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.bash
+[23.527s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.sh
+[23.528s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.zsh
+[23.528s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.dsv
+[23.529s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/package.dsv
+[23.530s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[23.531s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[23.531s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[23.532s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.532s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[23.533s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[23.533s] -- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/package.xml
+[23.558s] Invoked command in '/home/rosbot/dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces --target install -- -j4 -l4

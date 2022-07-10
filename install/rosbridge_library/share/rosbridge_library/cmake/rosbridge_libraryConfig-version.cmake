@@ -1,0 +1,1 @@
+/home/rosbot/dev_ws/build/rosbridge_library/ament_cmake_core/rosbridge_libraryConfig-version.cmake

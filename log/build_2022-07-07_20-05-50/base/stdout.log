@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/base/base.egg-info
+writing ../../build/base/base.egg-info/PKG-INFO
+writing dependency_links to ../../build/base/base.egg-info/dependency_links.txt
+writing entry points to ../../build/base/base.egg-info/entry_points.txt
+writing requirements to ../../build/base/base.egg-info/requires.txt
+writing top-level names to ../../build/base/base.egg-info/top_level.txt
+writing manifest file '../../build/base/base.egg-info/SOURCES.txt'
+reading manifest file '../../build/base/base.egg-info/SOURCES.txt'
+writing manifest file '../../build/base/base.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rosbot/dev_ws/build/base/build
+creating /home/rosbot/dev_ws/build/base/build/lib
+creating /home/rosbot/dev_ws/build/base/build/lib/base
+copying base/pca.py -> /home/rosbot/dev_ws/build/base/build/lib/base
+copying base/tester.py -> /home/rosbot/dev_ws/build/base/build/lib/base
+running install
+running install_lib
+creating /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base
+copying /home/rosbot/dev_ws/build/base/build/lib/base/pca.py -> /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base
+copying /home/rosbot/dev_ws/build/base/build/lib/base/tester.py -> /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base
+byte-compiling /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/pca.py to pca.cpython-36.pyc
+byte-compiling /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/tester.py to tester.cpython-36.pyc
+running install_data
+creating /home/rosbot/dev_ws/install/base/share/ament_index
+creating /home/rosbot/dev_ws/install/base/share/ament_index/resource_index
+creating /home/rosbot/dev_ws/install/base/share/ament_index/resource_index/packages
+copying resource/base -> /home/rosbot/dev_ws/install/base/share/ament_index/resource_index/packages
+copying package.xml -> /home/rosbot/dev_ws/install/base/share/base
+running install_egg_info
+Copying ../../build/base/base.egg-info to /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base-0.0.0-py3.6.egg-info
+running install_scripts
+Installing drivetrain script to /home/rosbot/dev_ws/install/base/lib/base_tmp
+Installing pca script to /home/rosbot/dev_ws/install/base/lib/base_tmp
+Installing tester script to /home/rosbot/dev_ws/install/base/lib/base_tmp
+writing list of installed files to '/home/rosbot/dev_ws/build/base/install.log'

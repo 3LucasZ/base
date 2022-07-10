@@ -1,0 +1,1 @@
+/home/rosbot/dev_ws/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/vector2__rosidl_typesupport_fastrtps_cpp.hpp

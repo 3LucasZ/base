@@ -1,0 +1,190 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+-- Found FastRTPS: /opt/ros/eloquent/include  
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rosbot/dev_ws/build/interfaces
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target interfaces__cpp[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target interfaces__cpp
+[ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target interfaces__rosidl_generator_c[0m
+[ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/vector2__functions.c.o[0m
+[ 20%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[ 20%] Built target interfaces__rosidl_generator_c
+[ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/vector2__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/vector2__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[ 34%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/vector2__type_support.c.o[0m
+[ 37%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[ 37%] Built target interfaces__rosidl_typesupport_introspection_c
+[ 41%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 41%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[ 44%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 44%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/vector2__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/vector2__type_support_c.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[ 65%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 65%] Built target interfaces__rosidl_typesupport_cpp
+[ 65%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/vector2__type_support.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[ 75%] Built target interfaces__rosidl_typesupport_c
+[35m[1mScanning dependencies of target interfaces[0m
+[ 75%] Built target interfaces
+[35m[1mScanning dependencies of target interfaces__py[0m
+[ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 79%] Built target interfaces__py
+[35m[1mScanning dependencies of target interfaces__python[0m
+[ 82%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_vector2_s.c.o[0m
+[ 86%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[ 86%] Built target interfaces__python
+[35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[100%] Built target interfaces__rosidl_typesupport_c__pyext
+[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[  3%] Built target interfaces__cpp
+[ 13%] Built target interfaces__rosidl_generator_c
+[ 24%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[ 34%] Built target interfaces__rosidl_typesupport_introspection_c
+[ 44%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[ 65%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[ 65%] Built target interfaces__rosidl_typesupport_cpp
+[ 75%] Built target interfaces__rosidl_typesupport_c
+[ 75%] Built target interfaces
+[ 79%] Built target interfaces__py
+[ 86%] Built target interfaces__python
+[ 93%] Built target interfaces__rosidl_typesupport_c__pyext
+[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/library_path.sh
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+-- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__struct.h
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2.h
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__functions.h
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__type_support.h
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__functions.c
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+-- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/dds_fastrtps
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+-- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__traits.hpp
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2.hpp
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__struct.hpp
+-- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+-- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__type_support.c
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_introspection_c.h
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces
+-- Up-to-date: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__type_support.cpp
+-- Installing: /home/rosbot/dev_ws/install/interfaces/include/interfaces/msg/vector2__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py
+Compiling '/home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py'...
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_vector2.py
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_vector2_s.c
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/__init__.py
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+-- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+-- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+-- Installing: /home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__python.so
+-- Set runtime path of "/home/rosbot/dev_ws/install/interfaces/lib/libinterfaces__python.so" to ""
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/msg/Vector2.idl
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/msg/Vector2.msg
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/path.sh
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/environment/path.dsv
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.bash
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.sh
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.zsh
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/local_setup.dsv
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/package.dsv
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+-- Installing: /home/rosbot/dev_ws/install/interfaces/share/interfaces/package.xml

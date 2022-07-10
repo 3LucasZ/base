@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000464] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000658] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.007689] (base) JobQueued: {'identifier': 'base', 'dependencies': OrderedDict()}
+[0.007890] (base) JobStarted: {'identifier': 'base'}
+[0.103462] (-) TimerEvent: {}
+[0.219536] (-) TimerEvent: {}
+[0.332912] (-) TimerEvent: {}
+[0.438511] (-) TimerEvent: {}
+[0.539425] (-) TimerEvent: {}
+[0.640161] (-) TimerEvent: {}
+[0.740894] (-) TimerEvent: {}
+[0.841683] (-) TimerEvent: {}
+[0.942439] (-) TimerEvent: {}
+[1.043097] (-) TimerEvent: {}
+[1.143812] (-) TimerEvent: {}
+[1.244514] (-) TimerEvent: {}
+[1.345222] (-) TimerEvent: {}
+[1.445995] (-) TimerEvent: {}
+[1.546659] (-) TimerEvent: {}
+[1.647357] (-) TimerEvent: {}
+[1.748121] (-) TimerEvent: {}
+[1.853969] (-) TimerEvent: {}
+[1.959705] (-) TimerEvent: {}
+[2.070666] (-) TimerEvent: {}
+[2.171620] (-) TimerEvent: {}
+[2.272545] (-) TimerEvent: {}
+[2.373259] (-) TimerEvent: {}
+[2.474025] (-) TimerEvent: {}
+[2.574684] (-) TimerEvent: {}
+[2.675417] (-) TimerEvent: {}
+[2.776126] (-) TimerEvent: {}
+[2.876819] (-) TimerEvent: {}
+[2.977530] (-) TimerEvent: {}
+[3.078178] (-) TimerEvent: {}
+[3.178898] (-) TimerEvent: {}
+[3.279564] (-) TimerEvent: {}
+[3.380215] (-) TimerEvent: {}
+[3.480949] (-) TimerEvent: {}
+[3.581755] (-) TimerEvent: {}
+[3.682420] (-) TimerEvent: {}
+[3.783095] (-) TimerEvent: {}
+[3.883894] (-) TimerEvent: {}
+[3.912079] (base) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/base', 'build', '--build-base', '/home/rosbot/dev_ws/build/base/build', 'install', '--prefix', '/home/rosbot/dev_ws/install/base', '--record', '/home/rosbot/dev_ws/build/base/install.log', '--single-version-externally-managed'], 'cwd': '/home/rosbot/dev_ws/src/base', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/rosbot', 'USER': 'rosbot', 'SSH_CLIENT': '192.168.1.208 63319 22', 'GIT_ASKPASS': '/home/rosbot/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'BROWSER': '/home/rosbot/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/bin/helpers/browser.sh', 'SHLVL': '3', 'OLDPWD': '/home/rosbot/dev_ws/src', 'HOME': '/home/rosbot', 'TERM_PROGRAM_VERSION': '1.65.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7f100eb4-6303-4714-9e20-52312f47c0d8.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/home/rosbot/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/home/rosbot/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/rosbot/dev_ws/src/install:/home/rosbot/dev_ws/install', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'rosbot', '_': '/home/rosbot/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/eloquent/bin:/home/rosbot/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/bin/remote-cli:/home/rosbot/.local/bin:/home/rosbot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-20a32c24fc.sock', 'AMENT_PREFIX_PATH': '/home/rosbot/dev_ws/install/py_pubsub:/home/rosbot/dev_ws/install/my_package:/opt/ros/eloquent', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/rosbot/dev_ws/build/base', 'SSH_CONNECTION': '192.168.1.208 63319 192.168.1.238 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rosbot/dev_ws/install/base/lib/python3.6/site-packages:/home/rosbot/dev_ws/build/py_pubsub:/home/rosbot/dev_ws/install/py_pubsub/lib/python3.6/site-packages:/home/rosbot/dev_ws/build/my_package:/home/rosbot/dev_ws/install/my_package/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'COLCON': '1'}, 'shell': False}
+[3.984272] (-) TimerEvent: {}
+[4.085300] (-) TimerEvent: {}
+[4.186059] (-) TimerEvent: {}
+[4.286731] (-) TimerEvent: {}
+[4.387457] (-) TimerEvent: {}
+[4.488171] (-) TimerEvent: {}
+[4.588888] (-) TimerEvent: {}
+[4.689594] (-) TimerEvent: {}
+[4.790295] (-) TimerEvent: {}
+[4.891010] (-) TimerEvent: {}
+[4.991713] (-) TimerEvent: {}
+[5.092420] (-) TimerEvent: {}
+[5.161080] (base) StderrLine: {'line': b"/home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.162058] (base) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[5.162992] (base) StderrLine: {'line': b"/home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[5.163588] (base) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[5.192629] (-) TimerEvent: {}
+[5.293346] (-) TimerEvent: {}
+[5.325952] (base) StdoutLine: {'line': b'running egg_info\n'}
+[5.329062] (base) StdoutLine: {'line': b'creating ../../build/base/base.egg-info\n'}
+[5.329835] (base) StdoutLine: {'line': b'writing ../../build/base/base.egg-info/PKG-INFO\n'}
+[5.330485] (base) StdoutLine: {'line': b'writing dependency_links to ../../build/base/base.egg-info/dependency_links.txt\n'}
+[5.331189] (base) StdoutLine: {'line': b'writing entry points to ../../build/base/base.egg-info/entry_points.txt\n'}
+[5.331993] (base) StdoutLine: {'line': b'writing requirements to ../../build/base/base.egg-info/requires.txt\n'}
+[5.332505] (base) StdoutLine: {'line': b'writing top-level names to ../../build/base/base.egg-info/top_level.txt\n'}
+[5.333119] (base) StdoutLine: {'line': b"writing manifest file '../../build/base/base.egg-info/SOURCES.txt'\n"}
+[5.337508] (base) StderrLine: {'line': b"package init file 'base/__init__.py' not found (or not a regular file)\n"}
+[5.339593] (base) StdoutLine: {'line': b"reading manifest file '../../build/base/base.egg-info/SOURCES.txt'\n"}
+[5.344326] (base) StdoutLine: {'line': b"writing manifest file '../../build/base/base.egg-info/SOURCES.txt'\n"}
+[5.345093] (base) StdoutLine: {'line': b'running build\n'}
+[5.346146] (base) StdoutLine: {'line': b'running build_py\n'}
+[5.346783] (base) StdoutLine: {'line': b'creating /home/rosbot/dev_ws/build/base/build\n'}
+[5.347289] (base) StdoutLine: {'line': b'creating /home/rosbot/dev_ws/build/base/build/lib\n'}
+[5.348015] (base) StdoutLine: {'line': b'creating /home/rosbot/dev_ws/build/base/build/lib/base\n'}
+[5.348543] (base) StdoutLine: {'line': b'copying base/pca.py -> /home/rosbot/dev_ws/build/base/build/lib/base\n'}
+[5.349063] (base) StdoutLine: {'line': b'copying base/tester.py -> /home/rosbot/dev_ws/build/base/build/lib/base\n'}
+[5.349682] (base) StdoutLine: {'line': b'running install\n'}
+[5.350224] (base) StderrLine: {'line': b'/home/rosbot/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.350734] (base) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[5.351220] (base) StdoutLine: {'line': b'running install_lib\n'}
+[5.352212] (base) StdoutLine: {'line': b'creating /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base\n'}
+[5.352877] (base) StdoutLine: {'line': b'copying /home/rosbot/dev_ws/build/base/build/lib/base/pca.py -> /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base\n'}
+[5.353542] (base) StdoutLine: {'line': b'copying /home/rosbot/dev_ws/build/base/build/lib/base/tester.py -> /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base\n'}
+[5.354801] (base) StdoutLine: {'line': b'byte-compiling /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/pca.py to pca.cpython-36.pyc\n'}
+[5.356554] (base) StderrLine: {'line': b'  File "/home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/pca.py", line 65\n'}
+[5.357196] (base) StderrLine: {'line': b'    self.get_logger().info("Channel "+str(channel)+" received: "+str(pulse.data)))\n'}
+[5.357780] (base) StderrLine: {'line': b'                                                                                 ^\n'}
+[5.358408] (base) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[5.358902] (base) StderrLine: {'line': b'\n'}
+[5.359381] (base) StdoutLine: {'line': b'byte-compiling /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/tester.py to tester.cpython-36.pyc\n'}
+[5.359884] (base) StdoutLine: {'line': b'running install_data\n'}
+[5.360607] (base) StdoutLine: {'line': b'creating /home/rosbot/dev_ws/install/base/share/ament_index\n'}
+[5.361281] (base) StdoutLine: {'line': b'creating /home/rosbot/dev_ws/install/base/share/ament_index/resource_index\n'}
+[5.361960] (base) StdoutLine: {'line': b'creating /home/rosbot/dev_ws/install/base/share/ament_index/resource_index/packages\n'}
+[5.362467] (base) StdoutLine: {'line': b'copying resource/base -> /home/rosbot/dev_ws/install/base/share/ament_index/resource_index/packages\n'}
+[5.362955] (base) StdoutLine: {'line': b'copying package.xml -> /home/rosbot/dev_ws/install/base/share/base\n'}
+[5.363456] (base) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.368266] (base) StdoutLine: {'line': b'Copying ../../build/base/base.egg-info to /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base-0.0.0-py3.6.egg-info\n'}
+[5.371755] (base) StdoutLine: {'line': b'running install_scripts\n'}
+[5.393520] (-) TimerEvent: {}
+[5.452735] (base) StdoutLine: {'line': b'Installing drivetrain script to /home/rosbot/dev_ws/install/base/lib/base_tmp\n'}
+[5.453645] (base) StdoutLine: {'line': b'Installing pca script to /home/rosbot/dev_ws/install/base/lib/base_tmp\n'}
+[5.454342] (base) StdoutLine: {'line': b'Installing tester script to /home/rosbot/dev_ws/install/base/lib/base_tmp\n'}
+[5.455201] (base) StdoutLine: {'line': b"writing list of installed files to '/home/rosbot/dev_ws/build/base/install.log'\n"}
+[5.493716] (-) TimerEvent: {}
+[5.563441] (base) CommandEnded: {'returncode': 0}
+[5.598956] (-) TimerEvent: {}
+[5.709814] (-) TimerEvent: {}
+[5.816270] (-) TimerEvent: {}
+[5.820248] (base) JobEnded: {'identifier': 'base', 'rc': 0}
+[5.823961] (-) EventReactorShutdown: {}

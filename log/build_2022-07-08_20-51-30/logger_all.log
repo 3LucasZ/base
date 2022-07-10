@@ -1,0 +1,846 @@
+[4.366s] DEBUG:colcon:Command line arguments: ['/home/rosbot/.local/bin/colcon', 'build', '--symlink-install']
+[4.367s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f79ba4f28>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f79ba4f28>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f79b45b70>)
+[4.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.653s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rosbot/dev_ws'
+[4.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.858s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.858s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.858s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['ignore', 'ignore_ament_install']
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ignore'
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ignore_ament_install'
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['colcon_pkg']
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'colcon_pkg'
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['colcon_meta']
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'colcon_meta'
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['ros']
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ros'
+[4.876s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base' with type 'ros.ament_python' and name 'base'
+[4.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[4.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[4.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[4.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[4.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[4.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[4.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[4.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[4.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[4.882s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[4.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[4.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[4.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[4.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[4.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[4.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[4.887s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[4.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[4.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[4.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[4.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[4.892s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[4.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['ignore', 'ignore_ament_install']
+[4.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ignore'
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ignore_ament_install'
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['colcon_pkg']
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'colcon_pkg'
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['colcon_meta']
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'colcon_meta'
+[4.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['ros']
+[4.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ros'
+[4.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['cmake', 'python']
+[4.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'cmake'
+[4.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'python'
+[4.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['python_setup_py']
+[4.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'python_setup_py'
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['ignore', 'ignore_ament_install']
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ignore'
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ignore_ament_install'
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['colcon_pkg']
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'colcon_pkg'
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['colcon_meta']
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'colcon_meta'
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['ros']
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ros'
+[4.904s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosapi' with type 'ros.ament_cmake' and name 'rosapi'
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ignore'
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ignore_ament_install'
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['colcon_pkg']
+[4.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'colcon_pkg'
+[4.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['colcon_meta']
+[4.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'colcon_meta'
+[4.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['ros']
+[4.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ros'
+[4.910s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosapi_msgs' with type 'ros.ament_cmake' and name 'rosapi_msgs'
+[4.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['ignore', 'ignore_ament_install']
+[4.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ignore'
+[4.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ignore_ament_install'
+[4.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['colcon_pkg']
+[4.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'colcon_pkg'
+[4.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['colcon_meta']
+[4.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'colcon_meta'
+[4.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['ros']
+[4.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ros'
+[4.917s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_library' with type 'ros.ament_cmake' and name 'rosbridge_library'
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ignore'
+[4.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ignore_ament_install'
+[4.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['colcon_pkg']
+[4.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'colcon_pkg'
+[4.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['colcon_meta']
+[4.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'colcon_meta'
+[4.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['ros']
+[4.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ros'
+[4.923s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_msgs' with type 'ros.ament_cmake' and name 'rosbridge_msgs'
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['ignore', 'ignore_ament_install']
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ignore'
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ignore_ament_install'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['colcon_pkg']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'colcon_pkg'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['colcon_meta']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'colcon_meta'
+[4.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['ros']
+[4.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ros'
+[4.930s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_server' with type 'ros.ament_cmake' and name 'rosbridge_server'
+[4.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['ignore', 'ignore_ament_install']
+[4.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ignore'
+[4.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ignore_ament_install'
+[4.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['colcon_pkg']
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'colcon_pkg'
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['colcon_meta']
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'colcon_meta'
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['ros']
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ros'
+[4.935s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_suite' with type 'ros.ament_cmake' and name 'rosbridge_suite'
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ignore'
+[4.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ignore_ament_install'
+[4.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['colcon_pkg']
+[4.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'colcon_pkg'
+[4.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['colcon_meta']
+[4.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'colcon_meta'
+[4.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['ros']
+[4.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ros'
+[4.943s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_test_msgs' with type 'ros.ament_cmake' and name 'rosbridge_test_msgs'
+[4.944s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'base' build argument 'cmake_args' from command line to 'None'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'base' build argument 'cmake_target' from command line to 'None'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'base' build argument 'cmake_clean_cache' from command line to 'False'
+[5.333s] Level 5:colcon.colcon_core.verb:set package 'base' build argument 'cmake_clean_first' from command line to 'False'
+[5.333s] Level 5:colcon.colcon_core.verb:set package 'base' build argument 'cmake_force_configure' from command line to 'False'
+[5.333s] Level 5:colcon.colcon_core.verb:set package 'base' build argument 'ament_cmake_args' from command line to 'None'
+[5.333s] Level 5:colcon.colcon_core.verb:set package 'base' build argument 'catkin_cmake_args' from command line to 'None'
+[5.333s] Level 5:colcon.colcon_core.verb:set package 'base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.333s] DEBUG:colcon.colcon_core.verb:Building package 'base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosbot/dev_ws/build/base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosbot/dev_ws/install/base', 'merge_install': False, 'path': '/home/rosbot/dev_ws/src/base', 'symlink_install': True, 'test_result_base': None}
+[5.420s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[5.420s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[5.420s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[5.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[5.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[5.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[5.421s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[5.422s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.422s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosbot/dev_ws/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosbot/dev_ws/install/interfaces', 'merge_install': False, 'path': '/home/rosbot/dev_ws/src/interfaces', 'symlink_install': True, 'test_result_base': None}
+[5.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[5.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[5.509s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.510s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[5.510s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[5.510s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[5.510s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[5.510s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[5.510s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.511s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosbot/dev_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosbot/dev_ws/install/my_package', 'merge_install': False, 'path': '/home/rosbot/dev_ws/src/my_package', 'symlink_install': True, 'test_result_base': None}
+[5.598s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[5.598s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[5.598s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.598s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[5.599s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[5.599s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[5.599s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[5.599s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[5.599s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.599s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosbot/dev_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosbot/dev_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/rosbot/dev_ws/src/py_pubsub', 'symlink_install': True, 'test_result_base': None}
+[5.687s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_args' from command line to 'None'
+[5.687s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_target' from command line to 'None'
+[5.687s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.687s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.687s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.688s] DEBUG:colcon.colcon_core.verb:Building package 'rosapi_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosbot/dev_ws/build/rosapi_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosbot/dev_ws/install/rosapi_msgs', 'merge_install': False, 'path': '/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs', 'symlink_install': True, 'test_result_base': None}
+[5.775s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_args' from command line to 'None'
+[5.776s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_target' from command line to 'None'
+[5.776s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.776s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.776s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.776s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.777s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.777s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.777s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.777s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosbot/dev_ws/build/rosbridge_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosbot/dev_ws/install/rosbridge_msgs', 'merge_install': False, 'path': '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_msgs', 'symlink_install': True, 'test_result_base': None}
+[5.864s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_args' from command line to 'None'
+[5.864s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_target' from command line to 'None'
+[5.865s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.865s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.865s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.865s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.865s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.866s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.866s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.866s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_test_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosbot/dev_ws/build/rosbridge_test_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosbot/dev_ws/install/rosbridge_test_msgs', 'merge_install': False, 'path': '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_test_msgs', 'symlink_install': True, 'test_result_base': None}
+[5.953s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_args' from command line to 'None'
+[5.953s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_target' from command line to 'None'
+[5.953s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.954s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_clean_cache' from command line to 'False'
+[5.954s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_clean_first' from command line to 'False'
+[5.954s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_force_configure' from command line to 'False'
+[5.954s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'ament_cmake_args' from command line to 'None'
+[5.954s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'catkin_cmake_args' from command line to 'None'
+[5.954s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.955s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosbot/dev_ws/build/rosbridge_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosbot/dev_ws/install/rosbridge_library', 'merge_install': False, 'path': '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_library', 'symlink_install': True, 'test_result_base': None}
+[6.042s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_args' from command line to 'None'
+[6.042s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_target' from command line to 'None'
+[6.042s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.043s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_clean_cache' from command line to 'False'
+[6.043s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_clean_first' from command line to 'False'
+[6.043s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_force_configure' from command line to 'False'
+[6.043s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'ament_cmake_args' from command line to 'None'
+[6.043s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'catkin_cmake_args' from command line to 'None'
+[6.044s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.044s] DEBUG:colcon.colcon_core.verb:Building package 'rosapi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosbot/dev_ws/build/rosapi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosbot/dev_ws/install/rosapi', 'merge_install': False, 'path': '/home/rosbot/dev_ws/src/rosbridge_suite/rosapi', 'symlink_install': True, 'test_result_base': None}
+[6.131s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_args' from command line to 'None'
+[6.132s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_target' from command line to 'None'
+[6.132s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.132s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_clean_cache' from command line to 'False'
+[6.132s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_clean_first' from command line to 'False'
+[6.133s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_force_configure' from command line to 'False'
+[6.133s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'ament_cmake_args' from command line to 'None'
+[6.133s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'catkin_cmake_args' from command line to 'None'
+[6.133s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.133s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosbot/dev_ws/build/rosbridge_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosbot/dev_ws/install/rosbridge_server', 'merge_install': False, 'path': '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_server', 'symlink_install': True, 'test_result_base': None}
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_args' from command line to 'None'
+[6.221s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_target' from command line to 'None'
+[6.221s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.221s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_clean_cache' from command line to 'False'
+[6.221s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_clean_first' from command line to 'False'
+[6.221s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_force_configure' from command line to 'False'
+[6.221s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'ament_cmake_args' from command line to 'None'
+[6.222s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'catkin_cmake_args' from command line to 'None'
+[6.222s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.222s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_suite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosbot/dev_ws/build/rosbridge_suite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosbot/dev_ws/install/rosbridge_suite', 'merge_install': False, 'path': '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_suite', 'symlink_install': True, 'test_result_base': None}
+[6.243s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.395s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.396s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs' with build type 'ament_cmake'
+[6.397s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosapi_msgs'
+[6.485s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.599s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_msgs' with build type 'ament_cmake'
+[6.600s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_msgs'
+[6.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.668s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.767s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_test_msgs' with build type 'ament_cmake'
+[6.770s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_test_msgs'
+[6.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.938s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rosbot/dev_ws/src/base' with build type 'ament_python'
+[6.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('base', 'ament_prefix_path')
+[7.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/base/share/base/hook/ament_prefix_path.ps1'
+[7.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/base/share/base/hook/ament_prefix_path.dsv'
+[7.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/base/share/base/hook/ament_prefix_path.sh'
+[7.078s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.079s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosapi_msgs -- -j4 -l4
+[7.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_msgs -- -j4 -l4
+[7.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_test_msgs -- -j4 -l4
+[9.084s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rosbot/dev_ws/src/base'
+[9.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.161s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosapi_msgs -- -j4 -l4
+[9.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_msgs -- -j4 -l4
+[9.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_test_msgs -- -j4 -l4
+[9.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_msgs --target install -- -j4 -l4
+[11.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_msgs)
+[11.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_msgs --target install -- -j4 -l4
+[11.383s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs' for CMake module files
+[11.388s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs' for CMake config files
+[11.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'cmake_prefix_path')
+[11.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.ps1'
+[11.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.dsv'
+[11.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.sh'
+[11.474s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs/lib'
+[11.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'ld_library_path_lib')
+[11.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.ps1'
+[11.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.dsv'
+[11.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.sh'
+[11.562s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs/bin'
+[11.563s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs/lib/pkgconfig/rosbridge_msgs.pc'
+[11.564s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages'
+[11.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'pythonpath')
+[11.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.ps1'
+[11.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.dsv'
+[11.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.sh'
+[11.648s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs/bin'
+[11.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.ps1'
+[11.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv'
+[11.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.sh'
+[11.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.bash'
+[11.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.zsh'
+[11.737s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosbridge_msgs/share/colcon-core/packages/rosbridge_msgs)
+[11.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosapi_msgs --target install -- -j4 -l4
+[11.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_test_msgs --target install -- -j4 -l4
+[11.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/base': PYTHONPATH=/home/rosbot/dev_ws/install/base/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/rosbot/dev_ws/install/base --editable --build-directory /home/rosbot/dev_ws/build/base/build --no-deps install_data --install-dir /home/rosbot/dev_ws/install/base
+[12.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_msgs)
+[12.623s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs' for CMake module files
+[12.627s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs' for CMake config files
+[12.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'cmake_prefix_path')
+[12.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.ps1'
+[12.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.dsv'
+[12.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.sh'
+[12.734s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs/lib'
+[12.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'ld_library_path_lib')
+[12.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.ps1'
+[12.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.dsv'
+[12.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.sh'
+[12.817s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs/bin'
+[12.818s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs/lib/pkgconfig/rosbridge_msgs.pc'
+[12.819s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages'
+[12.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'pythonpath')
+[12.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.ps1'
+[12.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.dsv'
+[12.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.sh'
+[12.908s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_msgs/bin'
+[12.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.ps1'
+[12.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv'
+[12.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.sh'
+[12.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.bash'
+[12.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.zsh'
+[13.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosbridge_msgs/share/colcon-core/packages/rosbridge_msgs)
+[13.007s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosbot/dev_ws/src/interfaces' with build type 'ament_cmake'
+[13.012s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosbot/dev_ws/src/interfaces'
+[13.099s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.100s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces -- -j4 -l4
+[14.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_test_msgs)
+[14.817s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs' for CMake module files
+[14.824s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs' for CMake config files
+[14.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'cmake_prefix_path')
+[14.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.ps1'
+[14.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.dsv'
+[14.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.sh'
+[14.940s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib'
+[14.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'ld_library_path_lib')
+[15.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.ps1'
+[15.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.dsv'
+[15.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.sh'
+[15.025s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs/bin'
+[15.026s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib/pkgconfig/rosbridge_test_msgs.pc'
+[15.027s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages'
+[15.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'pythonpath')
+[15.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.ps1'
+[15.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.dsv'
+[15.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.sh'
+[15.104s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs/bin'
+[15.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.ps1'
+[15.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.dsv'
+[15.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.sh'
+[15.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.bash'
+[15.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.zsh'
+[15.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/colcon-core/packages/rosbridge_test_msgs)
+[15.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi_msgs)
+[15.305s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs' for CMake module files
+[15.314s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs' for CMake config files
+[15.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'cmake_prefix_path')
+[15.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.ps1'
+[15.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.dsv'
+[15.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.sh'
+[15.430s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs/lib'
+[15.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'ld_library_path_lib')
+[15.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.ps1'
+[15.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.dsv'
+[15.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.sh'
+[15.516s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs/bin'
+[15.517s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs/lib/pkgconfig/rosapi_msgs.pc'
+[15.518s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages'
+[15.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'pythonpath')
+[15.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.ps1'
+[15.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.dsv'
+[15.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.sh'
+[15.605s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs/bin'
+[15.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.ps1'
+[15.686s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.dsv'
+[15.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.sh'
+[15.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.bash'
+[15.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.zsh'
+[15.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosapi_msgs/share/colcon-core/packages/rosapi_msgs)
+[15.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('base', 'pythonpath_develop')
+[15.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/build/base/share/base/hook/pythonpath_develop.ps1'
+[15.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_test_msgs --target install -- -j4 -l4
+[15.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/build/base/share/base/hook/pythonpath_develop.dsv'
+[15.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/build/base/share/base/hook/pythonpath_develop.sh'
+[15.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosapi_msgs --target install -- -j4 -l4
+[15.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/base' returned '0': PYTHONPATH=/home/rosbot/dev_ws/install/base/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/rosbot/dev_ws/install/base --editable --build-directory /home/rosbot/dev_ws/build/base/build --no-deps install_data --install-dir /home/rosbot/dev_ws/install/base
+[15.899s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/base' for CMake module files
+[15.903s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/base' for CMake config files
+[15.906s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/base/lib'
+[15.907s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/base/bin'
+[15.907s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/base/lib/pkgconfig/base.pc'
+[15.909s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/base/lib/python3.6/site-packages'
+[15.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('base', 'pythonpath')
+[15.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/base/share/base/hook/pythonpath.ps1'
+[15.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/base/share/base/hook/pythonpath.dsv'
+[15.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/base/share/base/hook/pythonpath.sh'
+[15.989s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/base/bin'
+[15.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base)
+[16.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/base/share/base/package.ps1'
+[16.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/base/share/base/package.dsv'
+[16.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/base/share/base/package.sh'
+[16.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/base/share/base/package.bash'
+[16.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/base/share/base/package.zsh'
+[16.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/base/share/colcon-core/packages/base)
+[16.082s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rosbot/dev_ws/src/my_package' with build type 'ament_python'
+[16.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[16.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[16.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[16.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[16.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces -- -j4 -l4
+[17.971s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rosbot/dev_ws/src/my_package'
+[18.036s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.037s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi_msgs)
+[18.299s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs' for CMake module files
+[18.303s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs' for CMake config files
+[18.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'cmake_prefix_path')
+[18.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.ps1'
+[18.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.dsv'
+[18.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.sh'
+[18.389s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs/lib'
+[18.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'ld_library_path_lib')
+[18.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.ps1'
+[18.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.dsv'
+[18.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.sh'
+[18.459s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs/bin'
+[18.459s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs/lib/pkgconfig/rosapi_msgs.pc'
+[18.460s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages'
+[18.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'pythonpath')
+[18.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.ps1'
+[18.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.dsv'
+[18.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.sh'
+[18.529s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi_msgs/bin'
+[18.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.ps1'
+[18.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.dsv'
+[18.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.sh'
+[18.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.bash'
+[18.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi_msgs/share/rosapi_msgs/package.zsh'
+[18.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosapi_msgs/share/colcon-core/packages/rosapi_msgs)
+[18.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_test_msgs)
+[18.752s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs' for CMake module files
+[18.756s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs' for CMake config files
+[18.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'cmake_prefix_path')
+[18.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.ps1'
+[18.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.dsv'
+[18.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.sh'
+[18.840s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib'
+[18.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'ld_library_path_lib')
+[18.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.ps1'
+[18.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.dsv'
+[18.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.sh'
+[18.919s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs/bin'
+[18.920s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib/pkgconfig/rosbridge_test_msgs.pc'
+[18.921s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages'
+[18.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'pythonpath')
+[18.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.ps1'
+[18.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.dsv'
+[18.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.sh'
+[18.991s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_test_msgs/bin'
+[19.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.ps1'
+[19.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.dsv'
+[19.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.sh'
+[19.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.bash'
+[19.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.zsh'
+[19.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosbridge_test_msgs/share/colcon-core/packages/rosbridge_test_msgs)
+[19.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces --target install -- -j4 -l4
+[19.095s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_library' with build type 'ament_cmake'
+[19.097s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_library'
+[19.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.296s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rosbot/dev_ws/src/py_pubsub' with build type 'ament_python'
+[19.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[19.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[19.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[19.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[19.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosbridge_library': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_library -- -j4 -l4
+[21.232s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rosbot/dev_ws/src/py_pubsub'
+[21.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.407s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[21.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/interfaces --target install -- -j4 -l4
+[21.485s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces' for CMake module files
+[21.489s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces' for CMake config files
+[21.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[21.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[21.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[21.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[21.565s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces/lib'
+[21.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[21.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[21.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[21.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[21.635s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces/bin'
+[21.636s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[21.637s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages'
+[21.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[21.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[21.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[21.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[21.705s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces/bin'
+[21.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/interfaces/share/interfaces/package.ps1'
+[21.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/interfaces/share/interfaces/package.dsv'
+[21.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/interfaces/share/interfaces/package.sh'
+[21.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/interfaces/share/interfaces/package.bash'
+[21.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/interfaces/share/interfaces/package.zsh'
+[21.781s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[21.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_library -- -j4 -l4
+[21.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/my_package': PYTHONPATH=/home/rosbot/dev_ws/install/my_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/rosbot/dev_ws/install/my_package --editable --build-directory /home/rosbot/dev_ws/build/my_package/build --no-deps install_data --install-dir /home/rosbot/dev_ws/install/my_package
+[21.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosbridge_library': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_library --target install -- -j4 -l4
+[22.114s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[22.238s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces' for CMake module files
+[22.242s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces' for CMake config files
+[22.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[22.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[22.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[22.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[22.329s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces/lib'
+[22.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[22.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[22.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[22.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[22.409s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces/bin'
+[22.409s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[22.410s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages'
+[22.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[22.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[22.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[22.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[22.491s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/interfaces/bin'
+[22.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/interfaces/share/interfaces/package.ps1'
+[22.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/interfaces/share/interfaces/package.dsv'
+[22.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/interfaces/share/interfaces/package.sh'
+[22.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/interfaces/share/interfaces/package.bash'
+[22.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/interfaces/share/interfaces/package.zsh'
+[22.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[22.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_library)
+[22.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_library --target install -- -j4 -l4
+[22.663s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library' for CMake module files
+[22.667s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library' for CMake config files
+[22.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_library', 'cmake_prefix_path')
+[22.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.ps1'
+[22.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.dsv'
+[22.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.sh'
+[22.749s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library/lib'
+[22.749s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library/bin'
+[22.750s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library/lib/pkgconfig/rosbridge_library.pc'
+[22.750s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages'
+[22.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_library', 'pythonpath')
+[22.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.ps1'
+[22.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.dsv'
+[22.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.sh'
+[22.832s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library/bin'
+[22.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.ps1'
+[22.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.dsv'
+[22.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.sh'
+[22.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.bash'
+[22.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.zsh'
+[22.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosbridge_library/share/colcon-core/packages/rosbridge_library)
+[23.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_library)
+[23.154s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library' for CMake module files
+[23.157s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library' for CMake config files
+[23.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_library', 'cmake_prefix_path')
+[23.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.ps1'
+[23.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.dsv'
+[23.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.sh'
+[23.244s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library/lib'
+[23.244s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library/bin'
+[23.245s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library/lib/pkgconfig/rosbridge_library.pc'
+[23.246s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages'
+[23.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_library', 'pythonpath')
+[23.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.ps1'
+[23.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.dsv'
+[23.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.sh'
+[23.320s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_library/bin'
+[23.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.ps1'
+[23.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.dsv'
+[23.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.sh'
+[23.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.bash'
+[23.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.zsh'
+[23.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosbridge_library/share/colcon-core/packages/rosbridge_library)
+[23.407s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosapi' with build type 'ament_cmake'
+[23.408s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosapi'
+[23.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.483s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosapi': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosapi -- -j4 -l4
+[23.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosapi' returned '0': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosapi -- -j4 -l4
+[23.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/py_pubsub': PYTHONPATH=/home/rosbot/dev_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/rosbot/dev_ws/install/py_pubsub --editable --build-directory /home/rosbot/dev_ws/build/py_pubsub/build --no-deps install_data --install-dir /home/rosbot/dev_ws/install/py_pubsub
+[23.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosapi': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosapi --target install -- -j4 -l4
+[24.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi)
+[24.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosapi' returned '0': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosapi --target install -- -j4 -l4
+[24.474s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi' for CMake module files
+[24.478s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi' for CMake config files
+[24.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi', 'cmake_prefix_path')
+[24.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.ps1'
+[24.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.dsv'
+[24.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.sh'
+[24.557s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi/lib'
+[24.558s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi/bin'
+[24.558s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi/lib/pkgconfig/rosapi.pc'
+[24.559s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages'
+[24.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi', 'pythonpath')
+[24.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/pythonpath.ps1'
+[24.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/pythonpath.dsv'
+[24.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/pythonpath.sh'
+[24.632s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi/bin'
+[24.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi/share/rosapi/package.ps1'
+[24.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosapi/share/rosapi/package.dsv'
+[24.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi/share/rosapi/package.sh'
+[24.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi/share/rosapi/package.bash'
+[24.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi/share/rosapi/package.zsh'
+[24.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosapi/share/colcon-core/packages/rosapi)
+[24.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath_develop')
+[24.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/my_package' returned '0': PYTHONPATH=/home/rosbot/dev_ws/install/my_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/rosbot/dev_ws/install/my_package --editable --build-directory /home/rosbot/dev_ws/build/my_package/build --no-deps install_data --install-dir /home/rosbot/dev_ws/install/my_package
+[24.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/build/my_package/share/my_package/hook/pythonpath_develop.ps1'
+[24.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/build/my_package/share/my_package/hook/pythonpath_develop.dsv'
+[24.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/build/my_package/share/my_package/hook/pythonpath_develop.sh'
+[24.890s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/my_package' for CMake module files
+[24.893s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/my_package' for CMake config files
+[24.897s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/my_package/lib'
+[24.898s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/my_package/bin'
+[24.898s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[24.899s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/my_package/lib/python3.6/site-packages'
+[24.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[24.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/my_package/share/my_package/hook/pythonpath.ps1'
+[24.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/my_package/share/my_package/hook/pythonpath.dsv'
+[24.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/my_package/share/my_package/hook/pythonpath.sh'
+[24.976s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/my_package/bin'
+[24.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[25.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/my_package/share/my_package/package.ps1'
+[25.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/my_package/share/my_package/package.dsv'
+[25.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/my_package/share/my_package/package.sh'
+[25.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/my_package/share/my_package/package.bash'
+[25.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/my_package/share/my_package/package.zsh'
+[25.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/my_package/share/colcon-core/packages/my_package)
+[25.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi)
+[25.223s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi' for CMake module files
+[25.227s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi' for CMake config files
+[25.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi', 'cmake_prefix_path')
+[25.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.ps1'
+[25.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.dsv'
+[25.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.sh'
+[25.302s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi/lib'
+[25.302s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi/bin'
+[25.303s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi/lib/pkgconfig/rosapi.pc'
+[25.304s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages'
+[25.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi', 'pythonpath')
+[25.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/pythonpath.ps1'
+[25.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/pythonpath.dsv'
+[25.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosapi/share/rosapi/hook/pythonpath.sh'
+[25.378s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosapi/bin'
+[25.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi/share/rosapi/package.ps1'
+[25.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosapi/share/rosapi/package.dsv'
+[25.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi/share/rosapi/package.sh'
+[25.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi/share/rosapi/package.bash'
+[25.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosapi/share/rosapi/package.zsh'
+[25.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosapi/share/colcon-core/packages/rosapi)
+[25.463s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_server' with build type 'ament_cmake'
+[25.464s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_server'
+[25.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosbridge_server': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_server -- -j4 -l4
+[25.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosbridge_server' returned '0': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_server -- -j4 -l4
+[25.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosbridge_server': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_server --target install -- -j4 -l4
+[26.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath_develop')
+[26.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/rosbot/dev_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/rosbot/dev_ws/install/py_pubsub --editable --build-directory /home/rosbot/dev_ws/build/py_pubsub/build --no-deps install_data --install-dir /home/rosbot/dev_ws/install/py_pubsub
+[26.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.ps1'
+[26.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.dsv'
+[26.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.sh'
+[26.460s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/py_pubsub' for CMake module files
+[26.464s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/py_pubsub' for CMake config files
+[26.468s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/py_pubsub/lib'
+[26.468s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/py_pubsub/bin'
+[26.469s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[26.470s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/py_pubsub/lib/python3.6/site-packages'
+[26.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[26.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[26.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[26.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[26.538s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/py_pubsub/bin'
+[26.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[26.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[26.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[26.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[26.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[26.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[26.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[26.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_server)
+[26.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosbridge_server' returned '0': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_server --target install -- -j4 -l4
+[26.699s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server' for CMake module files
+[26.702s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server' for CMake config files
+[26.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_server', 'cmake_prefix_path')
+[26.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.ps1'
+[26.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.dsv'
+[26.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.sh'
+[26.775s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server/lib'
+[26.775s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server/bin'
+[26.775s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server/lib/pkgconfig/rosbridge_server.pc'
+[26.776s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages'
+[26.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_server', 'pythonpath')
+[26.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.ps1'
+[26.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.dsv'
+[26.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.sh'
+[26.848s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server/bin'
+[26.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.ps1'
+[26.919s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.dsv'
+[26.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.sh'
+[26.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.bash'
+[26.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.zsh'
+[26.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosbridge_server/share/colcon-core/packages/rosbridge_server)
+[27.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_server)
+[27.143s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server' for CMake module files
+[27.147s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server' for CMake config files
+[27.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_server', 'cmake_prefix_path')
+[27.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.ps1'
+[27.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.dsv'
+[27.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.sh'
+[27.220s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server/lib'
+[27.221s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server/bin'
+[27.221s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server/lib/pkgconfig/rosbridge_server.pc'
+[27.222s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages'
+[27.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_server', 'pythonpath')
+[27.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.ps1'
+[27.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.dsv'
+[27.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.sh'
+[27.292s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_server/bin'
+[27.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.ps1'
+[27.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.dsv'
+[27.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.sh'
+[27.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.bash'
+[27.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_server/share/rosbridge_server/package.zsh'
+[27.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosbridge_server/share/colcon-core/packages/rosbridge_server)
+[27.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_suite' with build type 'ament_cmake'
+[27.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_suite'
+[27.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosbridge_suite': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_suite -- -j4 -l4
+[27.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosbridge_suite' returned '0': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_suite -- -j4 -l4
+[27.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosbot/dev_ws/build/rosbridge_suite': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_suite --target install -- -j4 -l4
+[28.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_suite)
+[28.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosbot/dev_ws/build/rosbridge_suite' returned '0': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_suite --target install -- -j4 -l4
+[28.140s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite' for CMake module files
+[28.152s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite' for CMake config files
+[28.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_suite', 'cmake_prefix_path')
+[28.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.ps1'
+[28.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.dsv'
+[28.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.sh'
+[28.224s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite/bin'
+[28.225s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite/lib/pkgconfig/rosbridge_suite.pc'
+[28.226s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite/lib/python3.6/site-packages'
+[28.227s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite/bin'
+[28.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.ps1'
+[28.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.dsv'
+[28.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.sh'
+[28.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.bash'
+[28.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.zsh'
+[28.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosbridge_suite/share/colcon-core/packages/rosbridge_suite)
+[28.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_suite)
+[28.508s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite' for CMake module files
+[28.511s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite' for CMake config files
+[28.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_suite', 'cmake_prefix_path')
+[28.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.ps1'
+[28.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.dsv'
+[28.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.sh'
+[28.583s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite/bin'
+[28.583s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite/lib/pkgconfig/rosbridge_suite.pc'
+[28.584s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite/lib/python3.6/site-packages'
+[28.585s] Level 1:colcon.colcon_core.environment:checking '/home/rosbot/dev_ws/install/rosbridge_suite/bin'
+[28.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.ps1'
+[28.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.dsv'
+[28.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.sh'
+[28.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.bash'
+[28.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.zsh'
+[28.661s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosbot/dev_ws/install/rosbridge_suite/share/colcon-core/packages/rosbridge_suite)
+[28.662s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.666s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.667s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.747s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.747s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.748s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.797s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosbot/dev_ws/install/local_setup.ps1'
+[28.879s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rosbot/dev_ws/install/_local_setup_util_ps1.py'
+[28.890s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosbot/dev_ws/install/setup.ps1'
+[28.943s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosbot/dev_ws/install/local_setup.sh'
+[28.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rosbot/dev_ws/install/_local_setup_util_sh.py'
+[28.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosbot/dev_ws/install/setup.sh'
+[29.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosbot/dev_ws/install/local_setup.bash'
+[29.010s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosbot/dev_ws/install/setup.bash'
+[29.065s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosbot/dev_ws/install/local_setup.zsh'
+[29.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosbot/dev_ws/install/setup.zsh'

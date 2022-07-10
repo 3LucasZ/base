@@ -1,0 +1,5 @@
+[console_scripts]
+drivetrain = base.drivetrain:main
+pca = base.pca:main
+tester = base.tester:main
+

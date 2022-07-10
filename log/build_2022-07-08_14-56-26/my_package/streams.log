@@ -1,0 +1,27 @@
+[8.716s] Invoking command in '/home/rosbot/dev_ws/build/my_package': PYTHONPATH=/home/rosbot/dev_ws/install/my_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/rosbot/dev_ws/install/my_package --editable --build-directory /home/rosbot/dev_ws/build/my_package/build --no-deps install_data --install-dir /home/rosbot/dev_ws/install/my_package
+[11.666s] /home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[11.667s]   % (opt, underscore_opt)
+[11.675s] /home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[11.676s]   % (opt, underscore_opt)
+[12.451s] running develop
+[12.452s] /home/rosbot/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[12.452s]   EasyInstallDeprecationWarning,
+[12.459s] /home/rosbot/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.460s]   setuptools.SetuptoolsDeprecationWarning,
+[12.866s] /home/rosbot/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[12.867s]   PkgResourcesDeprecationWarning,
+[13.518s] running egg_info
+[13.520s] writing my_package.egg-info/PKG-INFO
+[13.521s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[13.521s] writing entry points to my_package.egg-info/entry_points.txt
+[13.522s] writing requirements to my_package.egg-info/requires.txt
+[13.523s] writing top-level names to my_package.egg-info/top_level.txt
+[13.550s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[13.557s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[13.575s] running build_ext
+[13.576s] Creating /home/rosbot/dev_ws/install/my_package/lib/python3.6/site-packages/my-package.egg-link (link to .)
+[13.581s] Installing my_node script to /home/rosbot/dev_ws/install/my_package/lib/my_package
+[13.588s] 
+[13.589s] Installed /home/rosbot/dev_ws/build/my_package
+[13.589s] running install_data
+[13.876s] Invoked command in '/home/rosbot/dev_ws/build/my_package' returned '0': PYTHONPATH=/home/rosbot/dev_ws/install/my_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/rosbot/dev_ws/install/my_package --editable --build-directory /home/rosbot/dev_ws/build/my_package/build --no-deps install_data --install-dir /home/rosbot/dev_ws/install/my_package

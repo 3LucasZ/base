@@ -1,0 +1,41 @@
+[0.167s] Invoking command in '/home/rosbot/dev_ws/build/rosbridge_server': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosbot/dev_ws/install/rosbridge_server
+[0.345s] -- The C compiler identification is GNU 7.5.0
+[0.513s] -- The CXX compiler identification is GNU 7.5.0
+[0.524s] -- Check for working C compiler: /usr/bin/cc
+[0.750s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.752s] -- Detecting C compiler ABI info
+[0.981s] -- Detecting C compiler ABI info - done
+[1.000s] -- Detecting C compile features
+[1.691s] -- Detecting C compile features - done
+[1.699s] -- Check for working CXX compiler: /usr/bin/c++
+[1.956s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.958s] -- Detecting CXX compiler ABI info
+[2.218s] -- Detecting CXX compiler ABI info - done
+[2.236s] -- Detecting CXX compile features
+[3.356s] -- Detecting CXX compile features - done
+[3.367s] -- Found ament_cmake_ros: 0.8.0 (/opt/ros/eloquent/share/ament_cmake_ros/cmake)
+[3.530s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[3.531s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.622s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.421s] CMake Error at CMakeLists.txt:25 (find_package):
+[5.422s]   By not providing "Findlaunch_testing_ament_cmake.cmake" in
+[5.422s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[5.422s]   configuration file provided by "launch_testing_ament_cmake", but CMake did
+[5.423s]   not find one.
+[5.423s] 
+[5.424s]   Could not find a package configuration file provided by
+[5.424s]   "launch_testing_ament_cmake" with any of the following names:
+[5.425s] 
+[5.426s]     launch_testing_ament_cmakeConfig.cmake
+[5.426s]     launch_testing_ament_cmake-config.cmake
+[5.427s] 
+[5.427s]   Add the installation prefix of "launch_testing_ament_cmake" to
+[5.428s]   CMAKE_PREFIX_PATH or set "launch_testing_ament_cmake_DIR" to a directory
+[5.428s]   containing one of the above files.  If "launch_testing_ament_cmake"
+[5.429s]   provides a separate development package or SDK, be sure it has been
+[5.429s]   installed.
+[5.430s] 
+[5.430s] 
+[5.431s] -- Configuring incomplete, errors occurred!
+[5.431s] See also "/home/rosbot/dev_ws/build/rosbridge_server/CMakeFiles/CMakeOutput.log".
+[5.443s] Invoked command in '/home/rosbot/dev_ws/build/rosbridge_server' returned '1': AMENT_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rosbot/dev_ws/src/rosbridge_suite/rosbridge_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosbot/dev_ws/install/rosbridge_server

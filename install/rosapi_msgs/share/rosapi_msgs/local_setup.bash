@@ -1,0 +1,1 @@
+/home/rosbot/dev_ws/build/rosapi_msgs/ament_cmake_environment_hooks/local_setup.bash

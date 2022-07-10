@@ -1,0 +1,1 @@
+/home/rosbot/dev_ws/build/rosbridge_test_msgs/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/test_u_int8__rosidl_typesupport_introspection_c.h

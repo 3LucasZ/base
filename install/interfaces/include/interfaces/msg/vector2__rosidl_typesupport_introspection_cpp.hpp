@@ -1,0 +1,1 @@
+/home/rosbot/dev_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/vector2__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,101 @@
+[0.604s] Invoking command in '/home/rosbot/dev_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_msgs -- -j4 -l4
+[2.583s] [ 10%] Built target rosbridge_msgs__rosidl_generator_c
+[2.585s] [ 13%] Built target rosbridge_msgs__cpp
+[2.585s] [ 24%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c
+[2.587s] [ 35%] Built target rosbridge_msgs__rosidl_typesupport_introspection_cpp
+[2.588s] [ 45%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp
+[2.589s] [ 56%] Built target rosbridge_msgs__rosidl_typesupport_cpp
+[2.591s] [ 67%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c
+[2.592s] [ 78%] Built target rosbridge_msgs__rosidl_typesupport_c
+[2.596s] [ 78%] Built target rosbridge_msgs
+[2.597s] [ 81%] Built target rosbridge_msgs__py
+[2.599s] [ 89%] Built target rosbridge_msgs__python
+[2.600s] [ 94%] Built target rosbridge_msgs__rosidl_typesupport_c__pyext
+[2.602s] [100%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.649s] Invoked command in '/home/rosbot/dev_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_msgs -- -j4 -l4
+[2.927s] Invoking command in '/home/rosbot/dev_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_msgs --target install -- -j4 -l4
+[3.155s] [  2%] Built target rosbridge_msgs__cpp
+[3.176s] [ 13%] Built target rosbridge_msgs__rosidl_generator_c
+[3.296s] [ 24%] Built target rosbridge_msgs__rosidl_typesupport_introspection_cpp
+[3.297s] [ 35%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp
+[3.311s] [ 45%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c
+[3.436s] [ 56%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c
+[3.437s] [ 67%] Built target rosbridge_msgs__rosidl_typesupport_cpp
+[3.549s] [ 78%] Built target rosbridge_msgs__rosidl_typesupport_c
+[3.635s] [ 78%] Built target rosbridge_msgs
+[3.719s] [ 81%] Built target rosbridge_msgs__py
+[3.837s] [ 89%] Built target rosbridge_msgs__python
+[3.967s] [ 94%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.971s] [100%] Built target rosbridge_msgs__rosidl_typesupport_c__pyext
+[4.053s] [36mInstall the project...[0m
+[4.093s] -- Install configuration: ""
+[4.095s] -- Execute custom install script
+[4.097s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/ament_index/resource_index/rosidl_interfaces/rosbridge_msgs
+[4.101s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client.hpp
+[4.103s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client__struct.hpp
+[4.105s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client__traits.hpp
+[4.109s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients.hpp
+[4.110s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients__struct.hpp
+[4.111s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients__traits.hpp
+[4.114s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client.h
+[4.116s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client__functions.h
+[4.117s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client__struct.h
+[4.119s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client__type_support.h
+[4.120s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients.h
+[4.121s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients__functions.h
+[4.123s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients__struct.h
+[4.125s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients__type_support.h
+[4.126s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.127s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.sh
+[4.129s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.dsv
+[4.130s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_c.so
+[4.132s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_c.so
+[4.135s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_cpp.so
+[4.137s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client__rosidl_typesupport_introspection_c.h
+[4.139s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients__rosidl_typesupport_introspection_c.h
+[4.140s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.142s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_c.so
+[4.146s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client__rosidl_typesupport_introspection_cpp.hpp
+[4.147s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients__rosidl_typesupport_introspection_cpp.hpp
+[4.149s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_cpp.so
+[4.153s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client__rosidl_typesupport_fastrtps_c.h
+[4.156s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients__rosidl_typesupport_fastrtps_c.h
+[4.158s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.161s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_c.so
+[4.165s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client__rosidl_typesupport_fastrtps_cpp.hpp
+[4.167s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients__rosidl_typesupport_fastrtps_cpp.hpp
+[4.168s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.170s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.172s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.sh
+[4.173s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.dsv
+[4.175s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages/rosbridge_msgs/__init__.py
+[4.178s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages/rosbridge_msgs/msg/__init__.py
+[4.180s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages/rosbridge_msgs/msg/_connected_client.py
+[4.181s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages/rosbridge_msgs/msg/_connected_clients.py
+[4.183s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[4.185s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[4.187s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/lib/librosbridge_msgs__python.so
+[4.189s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.idl
+[4.191s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.idl
+[4.192s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.msg
+[4.193s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.msg
+[4.196s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/ament_index/resource_index/package_run_dependencies/rosbridge_msgs
+[4.198s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/ament_index/resource_index/parent_prefix_path/rosbridge_msgs
+[4.201s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.sh
+[4.203s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.dsv
+[4.204s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.sh
+[4.208s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.dsv
+[4.209s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.bash
+[4.210s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.sh
+[4.211s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.zsh
+[4.212s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.dsv
+[4.214s] -- Symlinking: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv
+[4.257s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/ament_index/resource_index/packages/rosbridge_msgs
+[4.258s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake-extras.cmake
+[4.259s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.261s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.261s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.263s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig.cmake
+[4.265s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig-version.cmake
+[4.265s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.xml
+[4.474s] Invoked command in '/home/rosbot/dev_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_msgs --target install -- -j4 -l4

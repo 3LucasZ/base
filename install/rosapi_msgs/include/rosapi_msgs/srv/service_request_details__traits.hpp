@@ -1,0 +1,1 @@
+/home/rosbot/dev_ws/build/rosapi_msgs/rosidl_generator_cpp/rosapi_msgs/srv/service_request_details__traits.hpp

@@ -1,0 +1,49 @@
+/home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  % (opt, underscore_opt)
+/home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  % (opt, underscore_opt)
+running egg_info
+creating ../../build/base/base.egg-info
+writing ../../build/base/base.egg-info/PKG-INFO
+writing dependency_links to ../../build/base/base.egg-info/dependency_links.txt
+writing entry points to ../../build/base/base.egg-info/entry_points.txt
+writing requirements to ../../build/base/base.egg-info/requires.txt
+writing top-level names to ../../build/base/base.egg-info/top_level.txt
+writing manifest file '../../build/base/base.egg-info/SOURCES.txt'
+package init file 'base/__init__.py' not found (or not a regular file)
+reading manifest file '../../build/base/base.egg-info/SOURCES.txt'
+writing manifest file '../../build/base/base.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rosbot/dev_ws/build/base/build
+creating /home/rosbot/dev_ws/build/base/build/lib
+creating /home/rosbot/dev_ws/build/base/build/lib/base
+copying base/pca.py -> /home/rosbot/dev_ws/build/base/build/lib/base
+copying base/tester.py -> /home/rosbot/dev_ws/build/base/build/lib/base
+running install
+/home/rosbot/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  setuptools.SetuptoolsDeprecationWarning,
+running install_lib
+creating /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base
+copying /home/rosbot/dev_ws/build/base/build/lib/base/pca.py -> /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base
+copying /home/rosbot/dev_ws/build/base/build/lib/base/tester.py -> /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base
+byte-compiling /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/pca.py to pca.cpython-36.pyc
+  File "/home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/pca.py", line 65
+    self.get_logger().info("Channel "+str(channel)+" received: "+str(pulse.data)))
+                                                                                 ^
+SyntaxError: invalid syntax
+
+byte-compiling /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/tester.py to tester.cpython-36.pyc
+running install_data
+creating /home/rosbot/dev_ws/install/base/share/ament_index
+creating /home/rosbot/dev_ws/install/base/share/ament_index/resource_index
+creating /home/rosbot/dev_ws/install/base/share/ament_index/resource_index/packages
+copying resource/base -> /home/rosbot/dev_ws/install/base/share/ament_index/resource_index/packages
+copying package.xml -> /home/rosbot/dev_ws/install/base/share/base
+running install_egg_info
+Copying ../../build/base/base.egg-info to /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base-0.0.0-py3.6.egg-info
+running install_scripts
+Installing drivetrain script to /home/rosbot/dev_ws/install/base/lib/base_tmp
+Installing pca script to /home/rosbot/dev_ws/install/base/lib/base_tmp
+Installing tester script to /home/rosbot/dev_ws/install/base/lib/base_tmp
+writing list of installed files to '/home/rosbot/dev_ws/build/base/install.log'

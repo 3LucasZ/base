@@ -1,0 +1,24 @@
+-- Found ament_cmake_core: 0.8.3 (/opt/ros/eloquent/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rosbot/dev_ws/build/rosbridge_suite
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/ament_index/resource_index/package_run_dependencies/rosbridge_suite
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/ament_index/resource_index/parent_prefix_path/rosbridge_suite
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.sh
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/environment/path.sh
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/environment/path.dsv
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.bash
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.sh
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.zsh
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/local_setup.dsv
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.dsv
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/ament_index/resource_index/packages/rosbridge_suite
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig.cmake
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/cmake/rosbridge_suiteConfig-version.cmake
+-- Symlinking: /home/rosbot/dev_ws/install/rosbridge_suite/share/rosbridge_suite/package.xml

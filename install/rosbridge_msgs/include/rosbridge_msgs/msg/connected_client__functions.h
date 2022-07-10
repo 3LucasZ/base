@@ -1,0 +1,1 @@
+/home/rosbot/dev_ws/build/rosbridge_msgs/rosidl_generator_c/rosbridge_msgs/msg/connected_client__functions.h
