@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000509] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.005846] (-) JobUnselected: {'identifier': 'my_package'}
+[0.006011] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.006141] (-) JobUnselected: {'identifier': 'rosapi'}
+[0.006306] (-) JobUnselected: {'identifier': 'rosapi_msgs'}
+[0.006434] (-) JobUnselected: {'identifier': 'rosbridge_library'}
+[0.006555] (-) JobUnselected: {'identifier': 'rosbridge_msgs'}
+[0.008577] (-) JobUnselected: {'identifier': 'rosbridge_server'}
+[0.008805] (-) JobUnselected: {'identifier': 'rosbridge_suite'}
+[0.009146] (-) JobUnselected: {'identifier': 'rosbridge_test_msgs'}
+[0.009367] (base) JobQueued: {'identifier': 'base', 'dependencies': OrderedDict()}
+[0.010757] (base) JobStarted: {'identifier': 'base'}
+[0.092354] (-) TimerEvent: {}
+[0.198369] (-) TimerEvent: {}
+[0.304738] (-) TimerEvent: {}
+[0.405504] (-) TimerEvent: {}
+[0.506419] (-) TimerEvent: {}
+[0.607083] (-) TimerEvent: {}
+[0.707759] (-) TimerEvent: {}
+[0.808479] (-) TimerEvent: {}
+[0.909243] (-) TimerEvent: {}
+[1.009902] (-) TimerEvent: {}
+[1.112191] (-) TimerEvent: {}
+[1.212836] (-) TimerEvent: {}
+[1.313470] (-) TimerEvent: {}
+[1.414168] (-) TimerEvent: {}
+[1.514814] (-) TimerEvent: {}
+[1.615542] (-) TimerEvent: {}
+[1.716193] (-) TimerEvent: {}
+[1.816861] (-) TimerEvent: {}
+[1.917554] (-) TimerEvent: {}
+[2.023306] (-) TimerEvent: {}
+[2.131784] (-) TimerEvent: {}
+[2.232547] (-) TimerEvent: {}
+[2.333430] (-) TimerEvent: {}
+[2.434118] (-) TimerEvent: {}
+[2.534782] (-) TimerEvent: {}
+[2.635513] (-) TimerEvent: {}
+[2.736163] (-) TimerEvent: {}
+[2.836872] (-) TimerEvent: {}
+[2.937532] (-) TimerEvent: {}
+[3.038176] (-) TimerEvent: {}
+[3.138853] (-) TimerEvent: {}
+[3.239464] (-) TimerEvent: {}
+[3.340153] (-) TimerEvent: {}
+[3.440796] (-) TimerEvent: {}
+[3.541456] (-) TimerEvent: {}
+[3.642103] (-) TimerEvent: {}
+[3.742788] (-) TimerEvent: {}
+[3.843461] (-) TimerEvent: {}
+[3.944156] (-) TimerEvent: {}
+[4.044843] (-) TimerEvent: {}
+[4.145523] (-) TimerEvent: {}
+[4.202638] (base) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/rosbot/dev_ws/install/base', '--uninstall', '--editable', '--build-directory', '/home/rosbot/dev_ws/build/base/build'], 'cwd': '/home/rosbot/dev_ws/build/base', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/rosbot', 'USER': 'rosbot', 'SSH_CLIENT': '10.147.19.164 53854 22', 'LD_LIBRARY_PATH': '/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib:/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:/home/rosbot/dev_ws/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '1', 'OLDPWD': '/home/rosbot/dev_ws/src', 'HOME': '/home/rosbot', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rosbot/dev_ws/install', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'rosbot', '_': '/home/rosbot/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '8', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rosbot/.local/bin:/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/rosbot/dev_ws/install/rosbridge_test_msgs:/home/rosbot/dev_ws/install/rosbridge_suite:/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:/home/rosbot/dev_ws/install/py_pubsub:/home/rosbot/dev_ws/install/my_package:/home/rosbot/dev_ws/install/interfaces:/home/rosbot/dev_ws/install/base:/opt/ros/eloquent', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/rosbot/dev_ws/build/base', 'SSH_CONNECTION': '10.147.19.164 53854 10.147.19.78 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rosbot/dev_ws/install/base/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/build/py_pubsub:/home/rosbot/dev_ws/install/py_pubsub/lib/python3.6/site-packages:/home/rosbot/dev_ws/build/my_package:/home/rosbot/dev_ws/install/my_package/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages:/home/rosbot/dev_ws/build/base:/home/rosbot/dev_ws/install/base/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rosbot/dev_ws/install/rosbridge_test_msgs:/home/rosbot/dev_ws/install/rosbridge_suite:/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:/home/rosbot/dev_ws/install/interfaces'}, 'shell': False}
+[4.245746] (-) TimerEvent: {}
+[4.346569] (-) TimerEvent: {}
+[4.447277] (-) TimerEvent: {}
+[4.548012] (-) TimerEvent: {}
+[4.648708] (-) TimerEvent: {}
+[4.749450] (-) TimerEvent: {}
+[4.850146] (-) TimerEvent: {}
+[4.950818] (-) TimerEvent: {}
+[5.051487] (-) TimerEvent: {}
+[5.152149] (-) TimerEvent: {}
+[5.252806] (-) TimerEvent: {}
+[5.353427] (-) TimerEvent: {}
+[5.454087] (-) TimerEvent: {}
+[5.554717] (-) TimerEvent: {}
+[5.562324] (base) StderrLine: {'line': b"/home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.563241] (base) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[5.564296] (base) StderrLine: {'line': b"/home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[5.564806] (base) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[5.654883] (-) TimerEvent: {}
+[5.755680] (-) TimerEvent: {}
+[5.810862] (base) StdoutLine: {'line': b'running develop\n'}
+[5.815263] (base) StderrLine: {'line': b'/home/rosbot/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.815973] (base) StderrLine: {'line': b'  EasyInstallDeprecationWarning,\n'}
+[5.821125] (base) StderrLine: {'line': b'/home/rosbot/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.821740] (base) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[5.855823] (-) TimerEvent: {}
+[5.956480] (-) TimerEvent: {}
+[6.057157] (-) TimerEvent: {}
+[6.092217] (base) StderrLine: {'line': b'/home/rosbot/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release\n'}
+[6.093017] (base) StderrLine: {'line': b'  PkgResourcesDeprecationWarning,\n'}
+[6.157275] (-) TimerEvent: {}
+[6.258083] (-) TimerEvent: {}
+[6.358778] (-) TimerEvent: {}
+[6.459463] (-) TimerEvent: {}
+[6.560120] (-) TimerEvent: {}
+[6.570134] (base) StdoutLine: {'line': b'Removing /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base.egg-link (link to .)\n'}
+[6.660299] (-) TimerEvent: {}
+[6.688427] (base) CommandEnded: {'returncode': 0}
+[6.691880] (base) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/base', 'build', '--build-base', '/home/rosbot/dev_ws/build/base/build', 'install', '--prefix', '/home/rosbot/dev_ws/install/base', '--record', '/home/rosbot/dev_ws/build/base/install.log', '--single-version-externally-managed'], 'cwd': '/home/rosbot/dev_ws/src/base', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/rosbot', 'USER': 'rosbot', 'SSH_CLIENT': '10.147.19.164 53854 22', 'LD_LIBRARY_PATH': '/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib:/home/rosbot/dev_ws/install/rosbridge_msgs/lib:/home/rosbot/dev_ws/install/rosapi_msgs/lib:/home/rosbot/dev_ws/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '1', 'OLDPWD': '/home/rosbot/dev_ws/src', 'HOME': '/home/rosbot', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rosbot/dev_ws/install', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'rosbot', '_': '/home/rosbot/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '8', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rosbot/.local/bin:/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/rosbot/dev_ws/install/rosbridge_test_msgs:/home/rosbot/dev_ws/install/rosbridge_suite:/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:/home/rosbot/dev_ws/install/py_pubsub:/home/rosbot/dev_ws/install/my_package:/home/rosbot/dev_ws/install/interfaces:/home/rosbot/dev_ws/install/base:/opt/ros/eloquent', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/rosbot/dev_ws/build/base', 'SSH_CONNECTION': '10.147.19.164 53854 10.147.19.78 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rosbot/dev_ws/install/base/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_server/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/rosapi_msgs/lib/python3.6/site-packages:/home/rosbot/dev_ws/build/py_pubsub:/home/rosbot/dev_ws/install/py_pubsub/lib/python3.6/site-packages:/home/rosbot/dev_ws/build/my_package:/home/rosbot/dev_ws/install/my_package/lib/python3.6/site-packages:/home/rosbot/dev_ws/install/interfaces/lib/python3.6/site-packages:/home/rosbot/dev_ws/build/base:/home/rosbot/dev_ws/install/base/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rosbot/dev_ws/install/rosbridge_test_msgs:/home/rosbot/dev_ws/install/rosbridge_suite:/home/rosbot/dev_ws/install/rosbridge_server:/home/rosbot/dev_ws/install/rosbridge_msgs:/home/rosbot/dev_ws/install/rosapi:/home/rosbot/dev_ws/install/rosbridge_library:/home/rosbot/dev_ws/install/rosapi_msgs:/home/rosbot/dev_ws/install/interfaces'}, 'shell': False}
+[6.760549] (-) TimerEvent: {}
+[6.861370] (-) TimerEvent: {}
+[6.962035] (-) TimerEvent: {}
+[7.062704] (-) TimerEvent: {}
+[7.163427] (-) TimerEvent: {}
+[7.264173] (-) TimerEvent: {}
+[7.364979] (-) TimerEvent: {}
+[7.465742] (-) TimerEvent: {}
+[7.566465] (-) TimerEvent: {}
+[7.667195] (-) TimerEvent: {}
+[7.767903] (-) TimerEvent: {}
+[7.868634] (-) TimerEvent: {}
+[7.969380] (-) TimerEvent: {}
+[8.041347] (base) StderrLine: {'line': b"/home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[8.042229] (base) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[8.043227] (base) StderrLine: {'line': b"/home/rosbot/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[8.043789] (base) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[8.069530] (-) TimerEvent: {}
+[8.170250] (-) TimerEvent: {}
+[8.211303] (base) StdoutLine: {'line': b'running egg_info\n'}
+[8.214808] (base) StdoutLine: {'line': b'writing ../../build/base/base.egg-info/PKG-INFO\n'}
+[8.215778] (base) StdoutLine: {'line': b'writing dependency_links to ../../build/base/base.egg-info/dependency_links.txt\n'}
+[8.216508] (base) StdoutLine: {'line': b'writing entry points to ../../build/base/base.egg-info/entry_points.txt\n'}
+[8.217176] (base) StdoutLine: {'line': b'writing requirements to ../../build/base/base.egg-info/requires.txt\n'}
+[8.217795] (base) StdoutLine: {'line': b'writing top-level names to ../../build/base/base.egg-info/top_level.txt\n'}
+[8.226794] (base) StdoutLine: {'line': b"reading manifest file '../../build/base/base.egg-info/SOURCES.txt'\n"}
+[8.233092] (base) StdoutLine: {'line': b"writing manifest file '../../build/base/base.egg-info/SOURCES.txt'\n"}
+[8.233844] (base) StdoutLine: {'line': b'running build\n'}
+[8.234334] (base) StdoutLine: {'line': b'running build_py\n'}
+[8.235504] (base) StdoutLine: {'line': b'copying base/drivetrain.py -> /home/rosbot/dev_ws/build/base/build/lib/base\n'}
+[8.236813] (base) StdoutLine: {'line': b'copying base/pca.py -> /home/rosbot/dev_ws/build/base/build/lib/base\n'}
+[8.238014] (base) StdoutLine: {'line': b'copying base/tester.py -> /home/rosbot/dev_ws/build/base/build/lib/base\n'}
+[8.239577] (base) StdoutLine: {'line': b'running install\n'}
+[8.240334] (base) StderrLine: {'line': b'/home/rosbot/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.240838] (base) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[8.241830] (base) StdoutLine: {'line': b'running install_lib\n'}
+[8.244602] (base) StdoutLine: {'line': b'creating /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base\n'}
+[8.245316] (base) StdoutLine: {'line': b'copying /home/rosbot/dev_ws/build/base/build/lib/base/drivetrain.py -> /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base\n'}
+[8.245913] (base) StdoutLine: {'line': b'copying /home/rosbot/dev_ws/build/base/build/lib/base/pca.py -> /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base\n'}
+[8.246429] (base) StdoutLine: {'line': b'copying /home/rosbot/dev_ws/build/base/build/lib/base/__init__.py -> /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base\n'}
+[8.246873] (base) StdoutLine: {'line': b'copying /home/rosbot/dev_ws/build/base/build/lib/base/tester.py -> /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base\n'}
+[8.248634] (base) StdoutLine: {'line': b'byte-compiling /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/drivetrain.py to drivetrain.cpython-36.pyc\n'}
+[8.251322] (base) StdoutLine: {'line': b'byte-compiling /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/pca.py to pca.cpython-36.pyc\n'}
+[8.254375] (base) StdoutLine: {'line': b'byte-compiling /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/__init__.py to __init__.cpython-36.pyc\n'}
+[8.255009] (base) StdoutLine: {'line': b'byte-compiling /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base/tester.py to tester.cpython-36.pyc\n'}
+[8.256627] (base) StdoutLine: {'line': b'running install_data\n'}
+[8.259111] (base) StdoutLine: {'line': b'copying package.xml -> /home/rosbot/dev_ws/install/base/share/base\n'}
+[8.259886] (base) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.268536] (base) StdoutLine: {'line': b'Copying ../../build/base/base.egg-info to /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base-0.0.0-py3.6.egg-info\n'}
+[8.270349] (-) TimerEvent: {}
+[8.273064] (base) StdoutLine: {'line': b'running install_scripts\n'}
+[8.356355] (base) StdoutLine: {'line': b'Installing drivetrain script to /home/rosbot/dev_ws/install/base/lib/base\n'}
+[8.358491] (base) StdoutLine: {'line': b'Installing pca script to /home/rosbot/dev_ws/install/base/lib/base\n'}
+[8.359243] (base) StdoutLine: {'line': b'Installing tester script to /home/rosbot/dev_ws/install/base/lib/base\n'}
+[8.360014] (base) StdoutLine: {'line': b"writing list of installed files to '/home/rosbot/dev_ws/build/base/install.log'\n"}
+[8.370504] (-) TimerEvent: {}
+[8.467924] (base) CommandEnded: {'returncode': 0}
+[8.478077] (-) TimerEvent: {}
+[8.579248] (-) TimerEvent: {}
+[8.690637] (-) TimerEvent: {}
+[8.744920] (base) JobEnded: {'identifier': 'base', 'rc': 0}
+[8.748615] (-) EventReactorShutdown: {}
