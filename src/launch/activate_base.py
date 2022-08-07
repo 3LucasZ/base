@@ -14,4 +14,9 @@ def generate_launch_description():
             node_executable='drivetrain',
             node_name='drivetrain'
         ),
+        Node(
+            package='base',
+            node_executable='videostream',
+            node_name='videostream'
+        ),
     ])

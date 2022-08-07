@@ -1,0 +1,56 @@
+[1.133s] Invoking command in '/home/rosbot/dev_ws/build/rosbridge_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosbot/dev_ws/install/py_pubsub:/home/rosbot/dev_ws/install/my_package:/home/rosbot/dev_ws/install/base:/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_library -- -j4 -l4
+[3.108s] Invoked command in '/home/rosbot/dev_ws/build/rosbridge_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosbot/dev_ws/install/py_pubsub:/home/rosbot/dev_ws/install/my_package:/home/rosbot/dev_ws/install/base:/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_library -- -j4 -l4
+[3.217s] Invoking command in '/home/rosbot/dev_ws/build/rosbridge_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosbot/dev_ws/install/py_pubsub:/home/rosbot/dev_ws/install/my_package:/home/rosbot/dev_ws/install/base:/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_library --target install -- -j4 -l4
+[3.419s] [36mInstall the project...[0m
+[3.460s] -- Install configuration: ""
+[3.461s] -- Execute custom install script
+[3.462s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.sh
+[3.464s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.dsv
+[3.470s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/__init__.py
+[3.471s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capabilities/__init__.py
+[3.473s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capabilities/advertise.py
+[3.474s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capabilities/advertise_service.py
+[3.476s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capabilities/call_service.py
+[3.478s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capabilities/defragmentation.py
+[3.479s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capabilities/fragmentation.py
+[3.481s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capabilities/publish.py
+[3.482s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capabilities/service_response.py
+[3.484s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capabilities/subscribe.py
+[3.485s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capabilities/unadvertise_service.py
+[3.487s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capability.py
+[3.488s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/__init__.py
+[3.489s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/cbor_conversion.py
+[3.491s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/exceptions.py
+[3.492s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/message_conversion.py
+[3.494s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/outgoing_message.py
+[3.495s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/pngcompression.py
+[3.497s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/publishers.py
+[3.498s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/ros_loader.py
+[3.500s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/services.py
+[3.501s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/subscribers.py
+[3.503s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/subscription_modifiers.py
+[3.504s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal/topics.py
+[3.506s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/protocol.py
+[3.507s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/rosbridge_protocol.py
+[3.508s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/util/__init__.py
+[3.509s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/util/cbor.py
+[3.510s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/ament_index/resource_index/package_run_dependencies/rosbridge_library
+[3.511s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/ament_index/resource_index/parent_prefix_path/rosbridge_library
+[3.512s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.sh
+[3.515s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.dsv
+[3.520s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/environment/path.sh
+[3.521s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/environment/path.dsv
+[3.522s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/local_setup.bash
+[3.523s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/local_setup.sh
+[3.524s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/local_setup.zsh
+[3.525s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/local_setup.dsv
+[3.526s] -- Symlinking: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.dsv
+[3.544s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/ament_index/resource_index/packages/rosbridge_library
+[3.545s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig.cmake
+[3.547s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig-version.cmake
+[3.548s] -- Up-to-date symlink: /home/rosbot/dev_ws/install/rosbridge_library/share/rosbridge_library/package.xml
+[3.757s] Listing '/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library'...
+[3.759s] Listing '/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/capabilities'...
+[3.760s] Listing '/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/internal'...
+[3.761s] Listing '/home/rosbot/dev_ws/install/rosbridge_library/lib/python3.6/site-packages/rosbridge_library/util'...
+[3.798s] Invoked command in '/home/rosbot/dev_ws/build/rosbridge_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosbot/dev_ws/install/py_pubsub:/home/rosbot/dev_ws/install/my_package:/home/rosbot/dev_ws/install/base:/opt/ros/eloquent /usr/bin/cmake --build /home/rosbot/dev_ws/build/rosbridge_library --target install -- -j4 -l4

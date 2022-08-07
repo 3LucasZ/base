@@ -23,6 +23,7 @@ setup(
             'pca = base.pca:main',
             'tester = base.tester:main',
             'drivetrain = base.drivetrain:main',
+            'videostream = base.videostream:main',
         ],
     },
 )

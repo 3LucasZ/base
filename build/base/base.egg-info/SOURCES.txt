@@ -12,7 +12,12 @@ base/__init__.py
 base/drivetrain.py
 base/pca.py
 base/tester.py
+base/videostream.py
+base.egg-info/PKG-INFO
+base.egg-info/SOURCES.txt
+base.egg-info/dependency_links.txt
+base.egg-info/entry_points.txt
+base.egg-info/requires.txt
+base.egg-info/top_level.txt
+base.egg-info/zip-safe
 resource/base
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

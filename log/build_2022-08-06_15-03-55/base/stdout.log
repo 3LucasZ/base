@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing base.egg-info/PKG-INFO
+writing dependency_links to base.egg-info/dependency_links.txt
+writing entry points to base.egg-info/entry_points.txt
+writing requirements to base.egg-info/requires.txt
+writing top-level names to base.egg-info/top_level.txt
+reading manifest file 'base.egg-info/SOURCES.txt'
+writing manifest file 'base.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rosbot/dev_ws/install/base/lib/python3.6/site-packages/base.egg-link (link to .)
+Installing drivetrain script to /home/rosbot/dev_ws/install/base/lib/base
+Installing livestream script to /home/rosbot/dev_ws/install/base/lib/base
+Installing pca script to /home/rosbot/dev_ws/install/base/lib/base
+Installing tester script to /home/rosbot/dev_ws/install/base/lib/base
+
+Installed /home/rosbot/dev_ws/build/base
+running install_data
